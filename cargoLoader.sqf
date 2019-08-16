@@ -6,11 +6,14 @@
 		
 		A surprising number of objects can be loaded this way, this is a very small subset of reasonable objects
 		
-		Fun fact: Multiline comments at the top of the script file have the additional effect of moving the code closer to the middle of the screen where you can actually read it!
+		Fun fact: Multiline comments at the top of the script file have the additional effect of moving the
+		code closer to the middle of the screen where you can actually read it!
 */
-	
-	cargoTypes = ["Slingload_base_F", "Land_FoodSack_01_cargo_base_F"]; // define loadable object types here. Do not be too broad, loadable objects include the player
-	
+
+
+	// define loadable object types here. Do not be too broad, loadable objects include the player
+	cargoTypes = ["Slingload_base_F", "Land_FoodSack_01_cargo_base_F"]; 
+		
 	
 	_this addAction
 	[
